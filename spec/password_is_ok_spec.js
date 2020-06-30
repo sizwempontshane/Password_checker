@@ -1,6 +1,6 @@
 const { passwordIsOk } = require("../src/password_checker");
 
-describe("passwordIsOk", function () {S
+describe("passwordIsOk", function () {
   it("should test if password exists", function () {
     expect(passwordIsOk("")).toBe(false);
   });
